@@ -2,6 +2,16 @@
 메모리 사용을 최소화 하기 위한 패턴의 일종이다. 예들 들면 Unity에서 제공하는 Prefab도 Flyweight 패턴의 일종이라 볼 수 있겠다. 또한 Scriptable object도 이 Flyweight 패턴의 일종이고
 이것을 이용해 간단한 예제를 연습해봤다.
 
+먼저 유니티에는 어떤식으로 쓰이며 어느정도 효과가 있는지 알아보자
+
+![bandicam 2021-06-28 14-55-09-288](https://user-images.githubusercontent.com/39051679/123587227-f079cf80-d820-11eb-83ae-8ce4c7f4c55b.jpg)
+
+먼저 메쉬를 직접 생성해서 100 * 100개의 큐브를 만들었을때의 메모리 사용량이다.
+
+![bandicam 2021-06-28 14-55-37-101](https://user-images.githubusercontent.com/39051679/123587283-07b8bd00-d821-11eb-9e03-b8454205a707.jpg)
+
+다음은 큐브를 Prefab으로 만들어 같은 수의 큐브를 만들었을때의 메모리 사용량이다. 이와같이 수가 많으면 많아질수록 큰 차이를 보이기에 만약 큰 틀은 갖고 세세한 정보가 다르다면 Unity에서 제공하는 Scriptable object를 이용하여 메모리 사용량을 아낄 수 있다.
+
 ![bandicam 2021-06-28 14-40-05-467](https://user-images.githubusercontent.com/39051679/123585799-bf000480-d81e-11eb-949c-a88acf2e2f1a.jpg)
 
 위와 같이 객체의 정보를 저장할 Scriptable object를 만든다.
