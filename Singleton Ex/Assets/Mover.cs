@@ -9,7 +9,6 @@ public class Mover : MonoBehaviour
     private GameObject[] points;
     private NavMeshAgent agent;
     private Vector3 lastPoint = Vector3.zero;
-    public static List<GameObject> droppedItems = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
