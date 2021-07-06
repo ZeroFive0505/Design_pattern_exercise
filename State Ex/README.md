@@ -67,8 +67,12 @@ Idle State를 예로 들면 Enter에서는 에니메이터 트리거 값을 초�
 안전지대로 도망가고 분해하는 애니메이션을 재생한다. 그리고 다시 Idle 상태로 돌아오고 정찰을 시작한다. 만약 플레이어가 눈에 보인다면 플레이어에게 다가와 춤을 춘다...
 
 ![ezgif-3-2993b6f96786](https://user-images.githubusercontent.com/39051679/124546291-5d1a4d00-de65-11eb-8716-42b2fde97623.gif)
+
+
 따라오면서 춤을 추는 모습이다.
 
  
 ![bandicam 2021-07-06 14-07-12-784](https://user-images.githubusercontent.com/39051679/124546392-889d3780-de65-11eb-9902-139ecfeed8bf.jpg)
+
+
 마지막으로 애니메이터의 설정은 다음과 같다.
